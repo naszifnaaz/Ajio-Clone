@@ -150,7 +150,16 @@ let kidData = [
         category: "kids",
         price: 329,
         strikedOffPrice: 399,
-    }
+    },
+        {
+        imageURL: "https://assets.ajio.com/medias/sys_master/root/20210827/LlLA/61284e447cdb8cb82409f048/bella_moda_green_embellished_fit_%26_flare_dress_with_sling_bag.jpg",
+        brand: "BELLA MODA",
+        product: "Embellished Fit & Flare Dress with Sling Bag",
+        gender: "girl",
+        category: "kids",
+        price: 669,
+        strikedOffPrice: 2157,
+    },
 ];
 
 // Writing Womens Data to Local Storage
