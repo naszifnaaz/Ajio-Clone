@@ -1,0 +1,36 @@
+{
+  "name": "ajio-clone",
+  "version": "1.0.0",
+  "description": "A clone project of Ajio Ecommerce website, built using Express and Mongoose",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "Ajio",
+    "Ecommerce",
+    "MongoDB",
+    "Mongoose",
+    "Express",
+    "Node.js",
+    "WebDesign",
+    "WebDevelopment"
+  ],
+  "author": "Muhammed Nasif",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naszifnaaz/Ajio-Ecommerce/issues"
+  },
+  "homepage": "https://github.com/naszifnaaz/Ajio-Ecommerce#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.9"
+  }
+}
