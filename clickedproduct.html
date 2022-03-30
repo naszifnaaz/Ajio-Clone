@@ -713,12 +713,15 @@ cartItemArr.map(function (item) {
     price1.textContent = "₹"+ item.price;
 
     var strikedOffPrice1 = document.createElement("h4");
-    strikedOffPrice1.textContent = "₹"+ item.strikedOffPrice;
+    strikedOffPrice1.textContent = "MRP" + " " + "₹" + item.strikedOffPrice;
+  
+  var priceincl = document.createElement("h5");
+    priceincl.textContent = "Price inclusive of all taxes";
 
 
     document
       .querySelector(".right_content")
-      .append(brand1, category1, gender1, product1, price1, strikedOffPrice1);
+      .append(brand1, category1, gender1, product1, price1, strikedOffPrice1,priceincl);
 
 
 
