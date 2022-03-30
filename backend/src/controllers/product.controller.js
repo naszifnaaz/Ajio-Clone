@@ -63,4 +63,16 @@ router.get("/girl", async (req, res) => {
   }
 });
 
+//Query URL for filters
+router.get("/filter", async (req, res) => {
+  try {
+    let query = req.query.items;
+    let filterItems = query.replace(/\[|\]/g, "").split(",");
+    let products = await Product.find({ category: { $in: filterItems } });
+    return res.status(200).send({ products: products });
+  } catch (err) {
+    return res.status(500).send({ message: err.message });
+  }
+});
+
 module.exports = router;
