@@ -1,11 +1,12 @@
 /* Navbar Styles */
 #navbar {
   margin-bottom: 1.5rem;
-  height: 72px;
+  height: 100px;
   width: 100%;
   border-top: 3px solid rgb(47, 66, 84);
   display: flex;
-  /* justify-content: space-around; */
+  padding: 15px 0;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #navbar-left {
   height: 65px;
@@ -19,6 +20,11 @@
   border: 1px solid transparent;
   margin-right: 50px;
   margin-left: 50px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: black;
 }
 #right-upper {
   height: 50%;
@@ -41,17 +47,17 @@
   align-items: center;
   font-family: sans-serif;
   font-size: 14px;
-  color: rgb(106, 106, 106);
   margin-top: 3px;
 }
 #rl:hover {
-  font-weight: bold;
+  font-weight: bolder;
   cursor: pointer;
+  color: black;
 }
 #site-logo {
   height: 100%;
   width: 35%;
-  margin-left: 60px;
+  padding-top: 15px;
 }
 #navbar-button {
   height: 100%;
@@ -63,9 +69,13 @@
   cursor: pointer;
 }
 #navbar-input {
-  border-radius: 15px;
+  border-radius: 25px;
   width: 250px;
-  height: 25px;
+  height: 30px;
+  padding: 15px;
+  margin-top: -10px;
+  border: 1px solid;
+  background-color: #fffded;
 }
 #ru {
   font-size: 12px;
@@ -87,10 +97,5 @@
   height: 100%;
   width: 4%;
   cursor: pointer;
-  background-color: rgb(47, 66, 84);
   color: white;
-}
-
-#navbar a {
-  color: gray;
 }
