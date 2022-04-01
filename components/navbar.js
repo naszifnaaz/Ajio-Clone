@@ -1,7 +1,6 @@
 // Navbar Component
-function navbar()
-{
-    return `<div id="navbar">
+function navbar() {
+  return `<div id="navbar">
     <div id="navbar-left">
         <img id="site-logo" src="https://assets.ajio.com/static/img/Ajio-Logo.svg" onclick="window.location.href = 'home.html'" alt="">
     </div>
@@ -22,7 +21,7 @@ function navbar()
             <img id="bar-img"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjHuCTCHiz7-sR9YwmlVHDZ0UXU-tcjDRIzmGlub9of64k0gsAJXe29kR-9Bpfj1f_YAg&usqp=CAU" alt="">
         </div>
     </div>
-</div>`
+</div>`;
 }
 
 export default navbar;
