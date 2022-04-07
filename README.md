@@ -1,10 +1,10 @@
 # Ajio-Clone
+
 Ajio Clone done during 3rd and 4th Construct Week of Masai School
 
 ## Abstract
 
 This project is a one to one clone of the online e-commerce website of "Ajio" which was done as a part of Masai School Construct Week #3 and #4. The project includes the Landing page, Login and Signup page, Product pages for Men, Women, and Kids section. The project is truly interactive and functional with features such as Login validation, Sorting product based on keys, and Filter based on categories, Cart feature and Payment checkout.
-
 
 ## Routes (API)
 
@@ -24,9 +24,11 @@ http://localhost:5000/products/girl - girl products route (GET)
 http://localhost:5000/login - Login user (POST)
 
 http://localhost:5000/register - Register user (POST)
+
 ```
 
 ## Core Features
+
 - Login and Signup Pages
 - Login Credential Validation
 - Landing Page and Hero Section
@@ -48,6 +50,7 @@ http://localhost:5000/register - Register user (POST)
 - MongoDB
 - NPM
 - Local Storage
+- Google OAuth
 
 ## Demo
 
